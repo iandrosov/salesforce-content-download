@@ -113,7 +113,7 @@
 
     }
 	//if you want to add an image to your cell, here's how
-	UIImage *image = [UIImage imageNamed:@"icon.png"];
+	UIImage *image = [UIImage imageNamed:@"cloud-doc.png"];
 	cell.imageView.image = image;
 
 	// Configure the cell to show the data.
@@ -131,18 +131,6 @@
 
 - (void)tableView:(UITableView *)tableViewA didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-/*
-    UITableViewCell *cell = [tableViewA cellForRowAtIndexPath:indexPath];
-    //[self requestReportDataById:[cellData objectForKey:cell.textLabel.text]];
-
-    NSString * txt = [cellData objectForKey:cell.textLabel.text];
-    
-     UIAlertView *messageAlert = [[UIAlertView alloc]
-     initWithTitle:@"Row Selected" message:txt delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-     
-     // Display Alert Message
-     [messageAlert show];
-  */
 
     UITableViewCell *cell = [tableViewA cellForRowAtIndexPath:indexPath];
     NSDictionary *obj = [cellData objectForKey:cell.textLabel.text];
