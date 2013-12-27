@@ -10,6 +10,8 @@
 		4F3F413517E7CA5C008B3283 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3F413417E7CA5C008B3283 /* ImageIO.framework */; };
 		4F3F413617E7CA71008B3283 /* libMKNetworkKit-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3F412B17E7C9CA008B3283 /* libMKNetworkKit-iOS.a */; };
 		4F3F413717E7CA84008B3283 /* libSalesforceNetworkSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F3F413317E7C9CA008B3283 /* libSalesforceNetworkSDK.a */; };
+		5B98248C186E42ED0060622F /* cloud-doc.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B98248B186E42ED0060622F /* cloud-doc.png */; };
+		5B98248E186E42FB0060622F /* cloud-doc-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B98248D186E42FB0060622F /* cloud-doc-128.png */; };
 		5B990FB4186E1EDF00A4DC4D /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B990FB2186E1EDF00A4DC4D /* ContentViewController.m */; };
 		5B990FB5186E1EDF00A4DC4D /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B990FB3186E1EDF00A4DC4D /* ContentViewController.xib */; };
 		824A9DD91724E16400C9BD79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 824A9DD81724E16400C9BD79 /* UIKit.framework */; };
@@ -70,6 +72,8 @@
 		4F3F413317E7C9CA008B3283 /* libSalesforceNetworkSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSalesforceNetworkSDK.a; sourceTree = "<group>"; };
 		4F3F413417E7CA5C008B3283 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		4F57794817F4CF5B004706EE /* SFRestAPI+Files.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFRestAPI+Files.h"; sourceTree = "<group>"; };
+		5B98248B186E42ED0060622F /* cloud-doc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud-doc.png"; sourceTree = "<group>"; };
+		5B98248D186E42FB0060622F /* cloud-doc-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cloud-doc-128.png"; sourceTree = "<group>"; };
 		5B990FB1186E1EDF00A4DC4D /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
 		5B990FB2186E1EDF00A4DC4D /* ContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewController.m; sourceTree = "<group>"; };
 		5B990FB3186E1EDF00A4DC4D /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
@@ -378,7 +382,9 @@
 				824A9E5B1724F02D00C9BD79 /* icon-72.png */,
 				824A9E5C1724F02D00C9BD79 /* icon-72@2x.png */,
 				824A9E5D1724F02D00C9BD79 /* icon.png */,
+				5B98248D186E42FB0060622F /* cloud-doc-128.png */,
 				824A9E5E1724F02D00C9BD79 /* icon@2x.png */,
+				5B98248B186E42ED0060622F /* cloud-doc.png */,
 			);
 			name = icons;
 			sourceTree = "<group>";
@@ -645,6 +651,7 @@
 				824A9DE31724E16400C9BD79 /* InfoPlist.strings in Resources */,
 				824A9E3B1724E58200C9BD79 /* InitialViewController.xib in Resources */,
 				824A9E3D1724E9F400C9BD79 /* readme.txt in Resources */,
+				5B98248E186E42FB0060622F /* cloud-doc-128.png in Resources */,
 				824A9E3F1724EC6300C9BD79 /* Settings.bundle in Resources */,
 				824A9E411724ECC600C9BD79 /* SalesforceSDKResources.bundle in Resources */,
 				824A9E5F1724F02D00C9BD79 /* icon-72.png in Resources */,
@@ -656,6 +663,7 @@
 				824A9E6C1724F03D00C9BD79 /* Default-Landscape~ipad.png in Resources */,
 				824A9E6D1724F03D00C9BD79 /* Default-Portrait@2x~ipad.png in Resources */,
 				824A9E6E1724F03D00C9BD79 /* Default-Portrait~ipad.png in Resources */,
+				5B98248C186E42ED0060622F /* cloud-doc.png in Resources */,
 				824A9E6F1724F03D00C9BD79 /* Default.png in Resources */,
 				5B990FB5186E1EDF00A4DC4D /* ContentViewController.xib in Resources */,
 				824A9E701724F03D00C9BD79 /* Default@2x.png in Resources */,
@@ -764,6 +772,7 @@
 					"$(SRCROOT)/SalesforceContentDownload/Dependencies/SalesforceCommonUtils/Headers",
 				);
 				INFOPLIST_FILE = "SalesforceContentDownload/SalesforceContentDownload-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SalesforceContentDownload/Dependencies/openssl\"",
@@ -797,6 +806,7 @@
 					"$(SRCROOT)/SalesforceContentDownload/Dependencies/SalesforceCommonUtils/Headers",
 				);
 				INFOPLIST_FILE = "SalesforceContentDownload/SalesforceContentDownload-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SalesforceContentDownload/Dependencies/openssl\"",
