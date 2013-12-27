@@ -64,6 +64,17 @@
     
 }
 
+#pragma mark DocumentInteractionController Delegate Methods
+- (UIViewController *)documentInteractionControllerViewControllerForPreview:(UIDocumentInteractionController *)controller
+{
+    return self;
+}
+
+/// Actions to perform after user has finished viewing the document.
+- (void)documentInteractionControllerDidEndPreview:(UIDocumentInteractionController *)controller
+{
+    
+}
 
 #pragma mark - SFRestAPIDelegate
 
