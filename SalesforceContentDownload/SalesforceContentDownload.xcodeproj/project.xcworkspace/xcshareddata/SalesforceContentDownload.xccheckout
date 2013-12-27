@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7C95FEEA-389E-4FBD-A1DF-AA7300D294E8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SalesforceContentDownload</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4D4D1082-8C51-4FD9-B77D-8E78D43F17F5</key>
+		<string>ssh://github.com/iandrosov/salesforce-content-download.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SalesforceContentDownload/SalesforceContentDownload.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4D4D1082-8C51-4FD9-B77D-8E78D43F17F5</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/iandrosov/salesforce-content-download.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4D4D1082-8C51-4FD9-B77D-8E78D43F17F5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4D4D1082-8C51-4FD9-B77D-8E78D43F17F5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>salesforce-content-download</string>
+		</dict>
+	</array>
+</dict>
+</plist>
